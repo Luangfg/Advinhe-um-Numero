@@ -1,6 +1,6 @@
 # Advinhe-um-Numero
 <h2>Advinhe um numero entre 0 e 1000, jogo com a API Web Speech que faz o reconhecimento do mesmo!</h2>
-##OBS: Jogo só rodá perfeitamente no Chrome, e Android pois a API Web Speech ainda está em faze de testes!
+<h3><strong>OBS: Jogo só rodá perfeitamente no Chrome, e Android pois a API Web Speech ainda está em faze de testes!</strong></h3>
 #Aprendizado: 
 <ul>
   <li>Estruturação do código HTML & CSS</li>

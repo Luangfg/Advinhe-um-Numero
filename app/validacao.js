@@ -3,10 +3,12 @@ function verificaSeOChutePossuiUmValorValido(chute){
 
     if (chuteForInvalido(numero)){
         elementoChute.innerHTML += '<div>Valor inválido</div>'
+        return
     }
 
     if (numeroForMaiorOuMenorQueOValorPermitido(numero)){
         elementoChute.innerHTML += `<div>Valor Inválido: o número secreto precisa estar entre ${menorValor} e ${maiorValor}</div>`
+        return
     }
 
     if (numero === numeroSecreto){
